@@ -379,3 +379,10 @@ System memory in use after: 207.5 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3510.
 Total: 5.154342 ms (FindLiveObjects: 0.364505 ms CreateObjectMapping: 0.267440 ms MarkObjects: 4.310819 ms  DeleteObjects: 0.209487 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1130.713037 seconds.
+  path: Assets/3DModels
+  artifactKey: Guid(5d1934188ad614c0992171ae50aa438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels using Guid(5d1934188ad614c0992171ae50aa438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdd88176cc58e9c1a5f7c364d90b531') in 0.006844 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
