@@ -13,18 +13,7 @@ public class LightingSettings : MonoBehaviour
     public Color[] notRandomColors;
 
     public Button notRandomColorsButton;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Button totallyRandomColorsButton;
 
     public void ChangeActiveLightGroup(int LightGroupID)
     {
@@ -46,6 +35,8 @@ public class LightingSettings : MonoBehaviour
         {
             item.color = randomizeColor;
         }
+        totallyRandomColorsButton.image.color = randomizeColor;
+
     }
 
     public void RandomizeColorFromList()
